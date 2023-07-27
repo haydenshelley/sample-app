@@ -10,4 +10,9 @@ class ExamplesController < ApplicationController
   def color
     render json: {message: "green"}
   end
+
+  def array
+    render json: ["this", "is", "an", "array"]
+  end
+
 end

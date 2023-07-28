@@ -15,4 +15,8 @@ class ExamplesController < ApplicationController
     render json: ["this", "is", "an", "array"]
   end
 
+  def get_time
+    render json: {time: "#{Time.new}"}
+  end
+
 end

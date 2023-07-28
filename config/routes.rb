@@ -9,6 +9,8 @@ Rails.application.routes.draw do
 
   get "/array", controller: "examples", action: "array"
 
+  get "/time", controller: "examples", action: "get_time"
+
   # Defines the root path route ("/")
   # root "articles#index"
 end
